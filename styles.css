@@ -497,6 +497,9 @@ h3 {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
+    top: 0.5rem;
+    width: min(100% - 0.8rem, 1040px);
+    padding: 0.5rem;
   }
 
   .brand {
@@ -511,6 +514,8 @@ h3 {
 
   .menu-toggle {
     display: inline-flex;
+    width: 2.55rem;
+    height: 2.55rem;
   }
 
   .site-header.menu-open .menu-toggle span:nth-child(1) {
@@ -543,17 +548,65 @@ h3 {
   }
 
   .hero {
-    min-height: 74vh;
-    padding-top: 7.5rem;
-    padding-bottom: 3.5rem;
+    min-height: 36rem;
+    padding: 7rem 1rem 3rem;
   }
 
   h1 {
-    font-size: clamp(3rem, 15vw, 4.8rem);
+    max-width: 100%;
+    font-size: 3.15rem;
+  }
+
+  .lead {
+    margin-bottom: 1.35rem;
+    font-size: 1.02rem;
   }
 
   .quick-facts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    width: min(100% - 0.8rem, 1120px);
+    margin-top: -1.2rem;
+  }
+
+  .quick-facts article {
+    min-height: auto;
+    padding: 1rem;
+  }
+
+  .quick-facts span {
+    font-size: 2.25rem;
+  }
+
+  .quick-facts p {
+    margin-bottom: 0;
+  }
+
+  .section,
+  .site-footer {
+    width: min(100% - 0.8rem, 1120px);
+    margin-top: 0.85rem;
+    padding: 1rem;
+  }
+
+  .feature-grid,
+  .price-grid,
+  .notice-grid,
+  .gallery,
+  .footer-grid {
+    gap: 0.7rem;
+  }
+
+  .feature-card,
+  .price-card,
+  .notice-grid article,
+  .booking-card,
+  .footer-grid > div {
+    padding: 1rem;
+  }
+
+  .booking-card a {
+    font-size: 1rem;
   }
 }
 
@@ -574,5 +627,11 @@ h3 {
 
   .gallery img {
     height: 15rem;
+  }
+}
+
+@media (max-width: 390px) {
+  h1 {
+    font-size: 2.75rem;
   }
 }
