@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kode Hemvärnsgård</title>
+  <meta
+    name="description"
+    content="Kode Hemvärnsgård är en fest- och möteslokal i Kode med plats för upp till 80 sittande gäster, kök, projektor och mindre mötesrum."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Work+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Kode Hemvärnsgård">
+      <span class="brand-mark">KH</span>
+      <span>Kode Hemvärnsgård</span>
+    </a>
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      aria-label="Öppna meny"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Huvudmeny">
+      <a href="#lokalen">Lokalen</a>
+      <a href="#priser">Priser</a>
+      <a href="#bokning">Bokning</a>
+      <a href="#bilder">Bilder</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Kode Hemvärnsgård">
+      <img src="assets/hemvarnsgarden-kode-sal.jpg" alt="Röd hemvärnsgård i Kode" class="hero-image">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Festlokal och mötesrum i Kode</p>
+        <h1>Kode Hemvärnsgård</h1>
+        <p class="lead">
+          En lokal för kalas, möten och sammankomster med plats för upp till 80 sittande gäster.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:kodehemvarnsgard@gmail.com">Skicka bokningsförfrågan</a>
+          <a class="button button-secondary" href="#priser">Se avgifter</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-facts" aria-label="Snabbfakta">
+      <article>
+        <span>80</span>
+        <p>max sittande gäster i stora lokalen</p>
+      </article>
+      <article>
+        <span>10</span>
+        <p>personer ryms bra i det mindre mötesrummet</p>
+      </article>
+      <article>
+        <span>25+</span>
+        <p>uthyrning sker till personer över 25 år</p>
+      </article>
+      <article>
+        <span>12-12</span>
+        <p>dygnshyra för fest och kalas</p>
+      </article>
+    </section>
+
+    <section class="section" id="lokalen">
+      <div class="section-heading">
+        <p class="eyebrow">Lokalen</p>
+        <h2>Praktiskt ordnat för både fest och möte.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Stora lokalen</h3>
+          <p>Plats för max 80 sittande gäster. Passar för kalas, föreningsträffar och andra sammankomster.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Mindre rum</h3>
+          <p>Ett mindre rum finns för möten och samtal, ungefär 10 personer.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Kök</h3>
+          <p>Fullutrustat kök med diskmaskin finns i lokalen.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Teknik</h3>
+          <p>Projektor och mikrofon finns. Wi-Fi finns inte i lokalen ännu.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-contrast" id="priser">
+      <div class="section-heading">
+        <p class="eyebrow">Avgifter från 2025-02-01</p>
+        <h2>Välj den hyra som passar bokningen.</h2>
+      </div>
+      <div class="price-grid">
+        <article class="price-card">
+          <h3>Fest / kalas</h3>
+          <p class="price">1400 kr</p>
+          <p>Hyra 24 timmar, från 12.00 till 12.00.</p>
+        </article>
+        <article class="price-card">
+          <h3>Möte heldag</h3>
+          <p class="price">1100 kr</p>
+          <p>För möten, utbildning eller liknande heldagsbokning.</p>
+        </article>
+        <article class="price-card">
+          <h3>Halvdag</h3>
+          <p class="price">600 kr</p>
+          <p>Minimiavgift för kortare bokningar.</p>
+        </article>
+      </div>
+      <div class="notice-grid">
+        <article>
+          <h3>Städning</h3>
+          <p>En avgift på 500 kr tillkommer vid ofullständig städning.</p>
+        </article>
+        <article>
+          <h3>Sopor</h3>
+          <p>Hemvärnsgården har ingen soptömning. Sopor tas med hem.</p>
+        </article>
+        <article>
+          <h3>Betalning</h3>
+          <p>Betalning sker via faktura.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section booking-section" id="bokning">
+      <div>
+        <p class="eyebrow">Boka</p>
+        <h2>Skicka en förfrågan så återkommer vi.</h2>
+        <p class="section-copy">
+          Bokningen bekräftas när datum, upplägg och betalning är avstämda. Nyckelfri inpassering sker med kod till Yale Doorman.
+        </p>
+      </div>
+      <div class="booking-card">
+        <h3>Bokningsförfrågan</h3>
+        <a href="mailto:kodehemvarnsgard@gmail.com">kodehemvarnsgard@gmail.com</a>
+        <h3>Kontaktperson</h3>
+        <a href="tel:+46705551327">Carina, 070-555 13 27</a>
+        <h3>Organisationsnummer</h3>
+        <p>85301-1758</p>
+      </div>
+    </section>
+
+    <section class="section" id="bilder">
+      <div class="section-heading">
+        <p class="eyebrow">Bilder</p>
+        <h2>En första bildyta som kan bytas mot fler egna foton.</h2>
+      </div>
+      <div class="gallery">
+        <figure>
+          <img src="assets/hemvarnsgarden-kode-sal.jpg" alt="Kode Hemvärnsgård exteriör från Facebook-sida">
+          <figcaption>Exteriör och Facebook-bild som utgångspunkt.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/hemvarnsgarden-info-2.png" alt="Skiss med bild på Hemvärnsgården i Kode">
+          <figcaption>Skissbilden kan ersättas med en ren logotyp eller ett nytt foto.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/hemvarnsgarden-info-3.png" alt="Bilder och kontaktinfo för Kode Hemvärnsgård">
+          <figcaption>Interiörbilder och kontaktuppgifter från underlaget.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontakt">
+    <div>
+      <p class="eyebrow">Kontakt</p>
+      <h2>Kode Hemvärnsgård</h2>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <h3>E-post</h3>
+        <p><a href="mailto:kodehemvarnsgard@gmail.com">kodehemvarnsgard@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Mobil</h3>
+        <p><a href="tel:+46705551327">070-555 13 27</a></p>
+      </div>
+      <div>
+        <h3>Adress</h3>
+        <p>Kode Hemvärnsgård<br>Kvartsvägen<br>442 60 Kode</p>
+      </div>
+      <div>
+        <h3>Org.nr</h3>
+        <p>85301-1758</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const header = document.querySelector(".site-header");
+      const button = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".site-nav");
+
+      if (!header || !button || !nav) {
+        return;
+      }
+
+      const closeMenu = () => {
+        header.classList.remove("menu-open");
+        button.setAttribute("aria-expanded", "false");
+        button.setAttribute("aria-label", "Öppna meny");
+      };
+
+      button.addEventListener("click", () => {
+        const isOpen = header.classList.toggle("menu-open");
+        button.setAttribute("aria-expanded", String(isOpen));
+        button.setAttribute("aria-label", isOpen ? "Stäng meny" : "Öppna meny");
+      });
+
+      nav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMenu);
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 760) {
+          closeMenu();
+        }
+      });
+    }());
+  </script>
+</body>
+</html>
