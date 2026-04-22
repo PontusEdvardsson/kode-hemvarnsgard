@@ -12,11 +12,15 @@ Statisk GitHub Pages-sida för Kode Hemvärnsgård.
 
 Tänkt repo-namn: `kode-hemvarnsgard`.
 
+Remote är redan satt till:
+
+```powershell
+https://github.com/PontusEdvardsson/kode-hemvarnsgard.git
+```
+
 När repot finns på GitHub:
 
 ```powershell
-git remote add origin https://github.com/PontusEdvardsson/kode-hemvarnsgard.git
-git branch -M main
 git push -u origin main
 ```
 
