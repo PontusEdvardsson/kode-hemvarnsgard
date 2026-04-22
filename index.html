@@ -217,38 +217,7 @@
     </div>
   </footer>
 
-  <script>
-    (function () {
-      const header = document.querySelector(".site-header");
-      const button = document.querySelector(".menu-toggle");
-      const nav = document.querySelector(".site-nav");
-
-      if (!header || !button || !nav) {
-        return;
-      }
-
-      const closeMenu = () => {
-        header.classList.remove("menu-open");
-        button.setAttribute("aria-expanded", "false");
-        button.setAttribute("aria-label", "Öppna meny");
-      };
-
-      button.addEventListener("click", () => {
-        const isOpen = header.classList.toggle("menu-open");
-        button.setAttribute("aria-expanded", String(isOpen));
-        button.setAttribute("aria-label", isOpen ? "Stäng meny" : "Öppna meny");
-      });
-
-      nav.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", closeMenu);
-      });
-
-      window.addEventListener("resize", () => {
-        if (window.innerWidth > 760) {
-          closeMenu();
-        }
-      });
-    }());
-  </script>
+  <script src="innehall.js"></script>
+  <script src="sidans-funktioner.js"></script>
 </body>
 </html>
