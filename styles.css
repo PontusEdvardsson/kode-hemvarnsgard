@@ -298,6 +298,11 @@ h3 {
   line-height: 1.6;
 }
 
+.quick-facts strong {
+  color: var(--text);
+  font-weight: 800;
+}
+
 .section,
 .site-footer {
   padding: clamp(1.2rem, 4vw, 2rem);
