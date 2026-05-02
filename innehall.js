@@ -51,7 +51,7 @@ window.sidansInnehall = {
       },
       {
         rubrik: "Kök",
-        text: "Fullutrustat kök med diskmaskin finns i lokalen."
+        text: "Fullutrustat kök med diskmaskin ingår alltid, oavsett om du bokar för fest, kalas eller möte."
       },
       {
         rubrik: "Teknik",
