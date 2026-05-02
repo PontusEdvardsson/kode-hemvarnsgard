@@ -108,7 +108,7 @@ window.sidansInnehall = {
     kontaktperson: "Carina",
     telefon_text: "070-555 13 27",
     telefon_lank: "+46705551327",
-    adress: ["Kode Hemvärnsgård", "Kvartsvägen", "442 60 Kode"],
+    adress: ["Kode Hemvärnsgård", "Granatvägen 4", "442 60 Kode"],
     organisationsnummer: "85301-1758"
   },
 
