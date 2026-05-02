@@ -23,7 +23,7 @@ window.sidansInnehall = {
       fet_text: "stora lokalen"
     },
     {
-      stor_text: "10",
+      stor_text: "12",
       text_fore: "ryms bra i",
       fet_text: "mindre mötesrummet"
     },
@@ -47,7 +47,7 @@ window.sidansInnehall = {
       },
       {
         rubrik: "Mindre rum",
-        text: "Ett mindre rum finns för möten och samtal, ungefär 10 personer."
+        text: "Ett mindre rum finns för möten och samtal, ungefär 12 personer."
       },
       {
         rubrik: "Kök",
@@ -134,7 +134,7 @@ window.sidansInnehall = {
       {
         bild: "assets/motesrum.jpg",
         bildtext: "Mötesrum med konferensbord",
-        text: "Mindre mötesrum för ungefär 10 personer."
+        text: "Mindre mötesrum för ungefär 12 personer."
       },
       {
         bild: "assets/hemvarnsgarden-exterior.jpg",
