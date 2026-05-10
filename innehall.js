@@ -90,7 +90,7 @@ window.sidansInnehall = {
       },
       {
         rubrik: "Betalning",
-        text: "Betalning sker via faktura."
+        text: "Betalning sker via faktura och ska vara gjord senast 5 dagar före bokningen."
       }
     ]
   },
@@ -98,7 +98,7 @@ window.sidansInnehall = {
   bokning: {
     overtext: "Boka",
     rubrik: "Skicka en förfrågan så återkommer vi.",
-    text: "När bokningen är bekräftad skickas dörrkoden via e-post inför tillträdet.",
+    text: "Först får du en bokningsbekräftelse för tid och datum. När det närmar sig skickas en faktura med kod till dörren. Fakturan ska vara betald senast 5 dagar före bokningen, annars spärras koden.",
     epost_rubrik: "Bokningsförfrågan",
     kontaktperson_rubrik: "Kontaktperson"
   },
@@ -132,7 +132,7 @@ window.sidansInnehall = {
         text: "Stora lokalen med scen, projektor och ljudutrustning."
       },
       {
-        bild: "assets/motesrum.jpg",
+        bild: "assets/motesrum-nytt.webp",
         bildtext: "Mötesrum med konferensbord",
         text: "Mindre mötesrum för ungefär 12 personer."
       },
