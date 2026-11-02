@@ -90,7 +90,7 @@ window.sidansInnehall = {
       },
       {
         rubrik: "Betalning",
-        text: "Betalning sker via faktura och ska vara gjord senast 5 dagar före bokningen."
+        text: "Betalning sker via faktura och ska vara gjord senast 14 dagar före bokningen."
       }
     ]
   },
@@ -98,7 +98,14 @@ window.sidansInnehall = {
   bokning: {
     overtext: "Boka",
     rubrik: "Skicka en förfrågan så återkommer vi.",
-    text: "Först får du en bokningsbekräftelse för tid och datum. När det närmar sig skickas en faktura med kod till dörren. Fakturan ska vara betald senast 5 dagar före bokningen, annars spärras koden.",
+    text: "Först får du en bokningsbekräftelse för tid och datum. När det närmar sig skickar vi en faktura med kod till dörren. Fakturan ska vara betald senast 14 dagar före bokningen, annars spärras koden. Vi förbehåller oss rätten att avboka din reservation.",
+    avbokning_rubrik: "Avbokningsvillkor",
+    avbokningsvillkor: [
+      "Vid avbokning mer än 14 dagar före uthyrningen tas ingen avgift ut.",
+      "Vid avbokning 7–14 dagar före uthyrningen debiteras 50 % av hyran.",
+      "Vid avbokning mindre än 7 dagar före uthyrningen debiteras 100 % av hyran."
+    ],
+    avbokning_text: "Avbokning ska ske skriftligen till",
     epost_rubrik: "Bokningsförfrågan",
     kontaktperson_rubrik: "Kontaktperson"
   },

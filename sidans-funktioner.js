@@ -195,6 +195,21 @@
     setText("#bokning .eyebrow", innehall.bokning?.overtext);
     setText("#bokning h2", innehall.bokning?.rubrik);
     setText("#bokning .section-copy", innehall.bokning?.text);
+    setText("#bokning .cancellation-heading", innehall.bokning?.avbokning_rubrik);
+    const cancellationTerms = first("#bokning .cancellation-terms");
+    if (cancellationTerms && Array.isArray(innehall.bokning?.avbokningsvillkor)) {
+      cancellationTerms.replaceChildren(...innehall.bokning.avbokningsvillkor.map((text) => {
+        const item = element("li");
+        item.append(element("strong", "", text));
+        return item;
+      }));
+    }
+    const cancellationContact = first("#bokning .cancellation-contact");
+    if (cancellationContact && innehall.bokning?.avbokning_text && innehall.kontakt?.epost) {
+      const link = element("a", "", innehall.kontakt.epost);
+      link.href = `mailto:${innehall.kontakt.epost}`;
+      cancellationContact.replaceChildren(`${innehall.bokning.avbokning_text} `, link, ".");
+    }
     setText(".booking-card h3:nth-of-type(1)", innehall.bokning?.epost_rubrik);
     setText(".booking-card h3:nth-of-type(2)", innehall.bokning?.kontaktperson_rubrik);
 

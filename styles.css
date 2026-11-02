@@ -394,6 +394,20 @@ h3 {
   align-items: stretch;
 }
 
+.cancellation-terms {
+  padding-left: 1.25rem;
+  line-height: 1.6;
+}
+
+.cancellation-terms li + li {
+  margin-top: 0.5rem;
+}
+
+.cancellation-contact {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
 .booking-card {
   background: var(--surface-muted);
 }
